@@ -60,7 +60,7 @@ const APIRequest = {
           snippet: articles[i].abstract,
           byline: articles[i].byline,
           date: articles[i].published_date,
-          url: articles[i].web_url
+          url: articles[i].url
         }
         result.push(newsObject);
       }

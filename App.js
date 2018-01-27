@@ -21,7 +21,7 @@ export default class App extends React.Component {
   state = {
     loading: true,
     articles : [],
-    searchText: "",
+    searchText: '',
     category: ''
   }
 
@@ -37,8 +37,9 @@ export default class App extends React.Component {
     if (category === '') {
       resultArticles = await APIRequest.requestSearchPosts(searchTerm);
     } else {
-      var resultArticles = await APIRequest.requestCategoryPosts(category);
+      resultArticles = await APIRequest.requestCategoryPosts(category);
     }
+    console.log(resultArticles);
     this.setState({loading: false, articles: resultArticles})
   }
 
