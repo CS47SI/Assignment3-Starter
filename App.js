@@ -48,7 +48,7 @@ export default class App extends React.Component {
     return (
       <SafeAreaView style={styles.container}>
 
-        <Text style={{textAlign: 'center'}}>Have fun! Start by taking a look at the NavigationButtons, Search, and News components.</Text>
+        <Text style={{textAlign: 'center'}}>Have fun! :) {"\n"} Start by taking a look at the following components: {"\n"} NavigationButtons {"\n"} Search {"\n"} News {"\n"} 🔥</Text>
 
         {/*First, you'll need a logo*/}
 
