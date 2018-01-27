@@ -32,6 +32,7 @@ const APIRequest = {
           snippet: articles[i].snippet,
           byline: articles[i].byline.original,
           date: articles[i].pub_date,
+          url: articles[i].web_url
         }
         result.push(newsObject);
       }

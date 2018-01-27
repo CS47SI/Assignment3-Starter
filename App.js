@@ -28,7 +28,7 @@ export default class App extends React.Component {
   componentDidMount() {
 
     //uncomment this to run an API query!
-    //this.loadArticles();
+    this.loadArticles();
   }
 
   async loadArticles(searchTerm = '', category = '') {
